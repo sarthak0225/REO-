@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Environment & Secrets (NEVER commit API keys or secret tokens)
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.env
+*.key
+*.pem
+*.cert
+*.p12
+*.cer
+*.token
+credentials.json
+secrets.json
+!.env.example
+
+# Swift & Xcode Build Artifacts
+.build/
+Packages/
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# Compiled App Bundles
+REO.app/
+REO.app.dSYM/
+*.app
+*.dSYM
+
+# Scratch, Logs & Crash Reports
+scratch/
+*.ips
+*.log
